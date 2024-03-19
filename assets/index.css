@@ -1,0 +1,75 @@
+header {
+  background-color: #061c38;
+  font-size: 24px;
+}
+header img {
+  height: 45px;
+}
+
+#left {
+  height: 100px;
+  width: 100px;
+}
+#left embed {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 350px;
+  left: 220px;
+  display: none;
+}
+#left p:nth-of-type(2) {
+  position: relative;
+  bottom: 340px;
+  left: 260px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+}
+
+#time {
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#right > button, #right #buttons button, #right p:nth-of-type(2), #right p:nth-of-type(3) {
+  font-weight: bold;
+}
+
+#right p:first-of-type {
+  color: #a0a4a8;
+  font-size: 15px;
+}
+#right p:nth-of-type(2), #right p:nth-of-type(3) {
+  font-size: 20px;
+}
+#right #Color button {
+  height: 50px;
+  width: 70px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+}
+#right #Color button:first-child {
+  background-color: #23211f;
+}
+#right #Color button:nth-child(2) {
+  background-color: #ca3d22;
+}
+#right #Color button:nth-child(3) {
+  background-color: #565681;
+}
+#right #Color button:last-child {
+  background-color: #e9c7be;
+}
+#right #buttons button {
+  background-color: #d9dde0;
+}
+#right > button {
+  background-color: #db8238;
+}/*# sourceMappingURL=index.css.map */

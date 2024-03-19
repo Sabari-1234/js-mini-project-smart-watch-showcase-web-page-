@@ -1,0 +1,35 @@
+
+@mixin position($bottom :300px,$left:200px){
+    position:relative;
+    bottom:$bottom;
+    left:$left
+}
+
+#left{
+    height: 100px;
+    width: 100px;
+    embed{
+        height:100px;
+        width: 100px;
+        @include position(350px,220px );
+        display: none;
+    }
+    p{
+        &:nth-of-type(2){
+            @include position(340px,260px );
+            color: $color;
+            font-size: 20px;
+            font-weight: bold;
+            display: none;
+        }
+    }
+    
+    
+    
+}
+#time{
+    @include position;
+    color: $color;
+    font-size: 35px;
+    font-weight: bold;
+}
